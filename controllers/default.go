@@ -19,7 +19,7 @@ func (c *MainController) Get() {
 	c.TplName = "index.tpl"
 }
 func (c *TestController) Get() {
-	c.Data["youthere"] = "Worlds"
+	c.Data["youthere"] = "Whoa! More Content!"
 	c.Layout = "base.html"
 	c.TplName = "test.tpl"
 
